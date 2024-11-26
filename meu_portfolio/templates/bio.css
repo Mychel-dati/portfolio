@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Signika:wght@300..700&display=swap');
+
+
+* {
+ margin:  0;
+ padding: 0;
+
+}
+
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #000000;
+    padding: 0% 10% 0% 5%;
+  }
+
+  .principal{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 78px;
+    
+
+  }
+
+
+  .principal__conteudo__titulo{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80;
+  }
+
+
+    
+.foto_portifolio{
+  max-width: 536.6px;
+  max-height: 400.3px;}
+  
+
+
+.cabecalho{
+  padding: 1% 0% 0% 10%;
+  
+
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 60px;
+}
+
+.cabecalho__menu__link{
+  font-family: "Anton";
+  font-size: 15px;
+  color: #edf0f2;
+  text-decoration: none;
+  padding: 0% 0% 6% 0%;
+}
+
+
+ 
+footer{
+  background-color: #ffbd59;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  bottom: 0;
+
+
+}
+
+.cabecalho__menu__bio{
+  padding: 10% 50% 15% 10%;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+  border: 0%;
+  padding: 188px;
+  
+}
+
+ 
+
+main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+   
+    
+    
+
+  }
+  
+  .cabecalho__menu__bio {
+    width: 60%; 
+    text-align: justify; 
+    
+    
+  }
+  
+  .foto_portfolio {
+    width: 35%; 
+    max-width: 100%; 
+    height: auto; 
+   
+    
+  }
+  
+
+  
